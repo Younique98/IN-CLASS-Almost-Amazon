@@ -1,4 +1,4 @@
-import { signOut } from "../utils/auth";
+import signOut from "../utils/auth";
 
 // navigation events
 export const navigationEvents = () => {

@@ -1,4 +1,4 @@
-import { getAuthors } from "../../api/authorData";
+import getAuthors from "../../api/authorData";
 import renderToDOM from "../../utils/renderToDom";
 
 export const selectAuthor = (authorId) => {
