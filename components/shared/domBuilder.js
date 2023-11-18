@@ -1,6 +1,6 @@
-import renderToDOM from '../../utils/renderToDom';
+import renderToDOM from "../../utils/renderToDom";
 
-const domBuilder = () => {
+export const domBuilder = () => {
   const domString = `
   <div id="navigation"></div>
   <div id="main-container">
@@ -10,7 +10,5 @@ const domBuilder = () => {
     <div id="view"></div>
   </div>`;
 
-  renderToDOM('#app', domString);
+  renderToDOM("#app", domString);
 };
-
-export default domBuilder;

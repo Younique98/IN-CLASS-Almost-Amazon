@@ -1,6 +1,6 @@
-import renderToDOM from '../../utils/renderToDom';
+import renderToDOM from "../../utils/renderToDom";
 
-const navBar = () => {
+export const navBar = () => {
   const domString = `
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark mb-5">
     <div class="container-fluid">
@@ -38,7 +38,5 @@ const navBar = () => {
         </div>
       </nav>`;
 
-  renderToDOM('#navigation', domString);
+  renderToDOM("#navigation", domString);
 };
-
-export default navBar;

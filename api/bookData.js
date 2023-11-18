@@ -4,30 +4,21 @@
 // const endpoint = client.databaseURL;
 
 // TODO: GET BOOKS
-const getBooks = () => {};
+export const getBooks = () => {};
 
 // TODO: DELETE BOOK
-const deleteBook = () => {};
+export const deleteBook = () => {};
 
 // TODO: GET SINGLE BOOK
-const getSingleBook = () => {};
+export const getSingleBook = () => {};
 
 // TODO: CREATE BOOK
-const createBook = () => {};
+export const createBook = () => {};
 
 // TODO: UPDATE BOOK
-const updateBook = () => {};
+export const updateBook = () => {};
 
 // TODO: FILTER BOOKS ON SALE
-const booksOnSale = () => {};
+export const booksOnSale = () => {};
 
 // TODO: STRETCH...SEARCH BOOKS
-
-export {
-  getBooks,
-  createBook,
-  booksOnSale,
-  deleteBook,
-  getSingleBook,
-  updateBook
-};
