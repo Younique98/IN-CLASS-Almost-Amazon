@@ -1,4 +1,4 @@
-const client = {
+export const client = {
   apiKey: process.env.APP_API_KEY,
   authDomain: process.env.APP_AUTH_DOMAIN,
   databaseURL: process.env.APP_DATABASE_URL,
@@ -7,5 +7,3 @@ const client = {
   appId: process.env.APP_APP_ID,
   measurementId: process.env.APP_MEASUREMENT_ID,
 };
-
-export default client;

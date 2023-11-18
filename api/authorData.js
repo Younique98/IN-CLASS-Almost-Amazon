@@ -3,28 +3,19 @@
 // const endpoint = client.databaseURL;
 
 // FIXME:  GET ALL AUTHORS
-const getAuthors = () => {};
+export const getAuthors = () => {};
 
 // FIXME: CREATE AUTHOR
-const createAuthor = () => {};
+export const createAuthor = () => {};
 
 // FIXME: GET SINGLE AUTHOR
-const getSingleAuthor = () => {};
+export const getSingleAuthor = () => {};
 
 // FIXME: DELETE AUTHOR
-const deleteSingleAuthor = () => {};
+export const deleteSingleAuthor = () => {};
 
 // FIXME: UPDATE AUTHOR
-const updateAuthor = () => {};
+export const updateAuthor = () => {};
 
 // TODO: GET A SINGLE AUTHOR'S BOOKS
-const getAuthorBooks = () => {};
-
-export {
-  getAuthors,
-  createAuthor,
-  getSingleAuthor,
-  deleteSingleAuthor,
-  updateAuthor,
-  getAuthorBooks,
-};
+export const getAuthorBooks = () => {};
